@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS ok - Tu Solución en Redes Sociales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Estilo del logotipo */
+        .logo::before {
+            content: "RS";
+            font-size: 36px;
+            color: #ff5733; /* Color naranja */
+            margin-right: 10px;
+        }
+
+        /* Estilo de la sección de servicios */
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .service {
+            text-align: center;
+        }
+
+        .service img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .service h2 {
+            margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">ok</div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services">
+            <div class="service">
+                <img src="cmr-icon.png" alt="CRM">
+                <h2>CRM</h2>
+                <p>Gestión de relaciones con clientes</p>
+            </div>
+            <div class="service">
+                <img src="redes-icon.png" alt="Redes Sociales">
+                <h2>Redes Sociales</h2>
+                <p>Manejo y estrategia en redes sociales</p>
+            </div>
+            <div class="service">
+                <img src="posicionamiento-icon.png" alt="Posicionamiento">
+                <h2>Posicionamiento</h2>
+                <p>Optimización y posicionamiento web</p>
+            </div>
+            <div class="service">
+                <img src="diseno-icon.png" alt="Diseño Foto y Vídeo">
+                <h2>Diseño Foto y Vídeo</h2>
+                <p>Captura y edición profesional</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
